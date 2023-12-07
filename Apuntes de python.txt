@@ -1,0 +1,45 @@
+
+Python
+
+"""" nos permite escribir
+             multiples
+                            lineas""""
+
+'''   nos permite escribir
+             multiples
+                            lineas'''
+
+
+la primera letra de lo que escribamos debe ser mayuscula ejemplo:
+
+False
+True , son clase de numeros boleanos
+
+nombre= "alejandro" " "
+nombre += "jose canseco"
+print (nombre)
+
+imprimirá: alejandro jose canseco
+el + antes del = añadirá lo que se halla definido en la variable anterior y si se pone un - restará o no imoprimirá lo que estaba en la 
+linea anterior.
+
+nombre = "pinguñoño "
+bienvenida = "hola " + nombre + "Como sería?"
+print (bienvenida)
+
+Imprimirá: hola pinguiñoño Como sería?  -  al dejar espacio de caracter en la variable antes de cerrar las comillas dara un espacio en el resultado final.
+
+nombre = 55
+bienvenida = f"hola {nombre} Como sería?"
+print (bienvenida) - Los f/strings nospermite añadir o  concatenamos strings y enteros, colocamos el nombre de la variuable entre{} y antes del string una f.
+
+del- operador para borrar variables.
+
+Operadores de pertenencia:  in /not in
+
+print ("ola" in bienvenida)- colocando el _in_ le preguntamos que si ese string está en la variable bienvenida , 
+el resultado será true porque el pedacito de texto (ola de la palabvra hola) si está en el string de la variable bienvenida
+ de lo contrario imprimirá  falso; es decir, si colocaramos ("pedro" in bienvenida) como no está, imprimiría false.
+Ahora si colocamos print ("pedro" not in bienvenida)-aparecerá true porque pedro no est{a en la variable bienvenida.
+
+para hacer comentarios en python se usa el #
